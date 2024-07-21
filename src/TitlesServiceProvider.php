@@ -1,6 +1,6 @@
 <?php
 
-namespace Hotmeteor\WritingStyle;
+namespace LaravelWorkingGroup\WritingStyle;
 
 
 use Illuminate\Support\ServiceProvider;

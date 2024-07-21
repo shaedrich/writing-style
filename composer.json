@@ -1,5 +1,5 @@
 {
-  "name": "hotmeteor/writing-style",
+  "name": "shaedrich/writing-style",
   "description": "A set of ready-made writing style helper methods (titling, date formatting, etc.) for use in your Laravel application.",
   "type": "library",
   "license": "MIT",
@@ -11,7 +11,12 @@
   "authors": [
     {
       "name": "Adam Campbell",
-      "email": "adam@hotmeteor.com"
+      "email": "adam@hotmeteor.com",
+      "role": "Initial maintainer (now former maintainer)"
+    },
+    {
+      "name": "Sebastian Hädrich",
+      "email": "laravel-working-group@sebastian-haedrich.de"
     }
   ],
   "require": {
@@ -26,12 +31,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Hotmeteor\\WritingStyle\\": "src"
+      "LaravelWorkingGroup\\WritingStyle\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Hotmeteor\\WritingStyle\\Tests\\": "tests/"
+      "SHaedrich\\WritingStyle\\Tests\\": "tests/"
     }
   },
   "scripts": {
@@ -40,10 +45,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Hotmeteor\\WritingStyle\\TitlesServiceProvider"
+        "LaravelWorkingGroup\\WritingStyle\\TitlesServiceProvider"
       ],
       "aliases": {
-        "Title": "Hotmeteor\\WritingStyle\\Facade"
+        "Title": "LaravelWorkingGroup\\WritingStyle\\Facade"
       }
     }
   },
