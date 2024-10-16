@@ -45,7 +45,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "LaravelWorkingGroup\\WritingStyle\\TitlesServiceProvider"
+        "LaravelWorkingGroup\\WritingStyle\\WritingStyleServiceProvider"
       ],
       "aliases": {
         "Title": "LaravelWorkingGroup\\WritingStyle\\Facade"
